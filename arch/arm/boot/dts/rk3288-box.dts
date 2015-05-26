@@ -468,6 +468,7 @@
 //		gpio-switch = <&gpio3 GPIO_D4 GPIO_ACTIVE_LOW>;
 		rockchip,source = <0>; //0: LCDC0; 1: LCDC1
 		rockchip,prop = <PRMRY>;//<EXTEND>
+		status = "disabled";
 	};
 	rk1000_codec: rk1000_codec@60 {
 		compatible = "rockchip,rk1000_codec";
